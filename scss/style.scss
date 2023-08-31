@@ -1,0 +1,13 @@
+/*Variables + Tipografia + Reseteo*/
+@import './variables/color';
+
+/*Estilos de las secciones*/
+
+.card{
+    .card-img-top{
+        width: 25%;
+    }
+}
+
+/*BOOTSTRAP*/
+@import "../node_modules/bootstrap/scss/bootstrap";
