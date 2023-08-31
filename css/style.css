@@ -1,10 +1,28 @@
 @charset "UTF-8";
 /*Variables + Tipografia + Reseteo*/
+.estilo-texto, .cuadrado, .card {
+  color: rgb(27, 28, 27);
+  font-size: 12px;
+  text-decoration: underline;
+}
+
 /*Estilos de las secciones*/
 .card .card-img-top {
   width: 25%;
 }
 
+.cuadrado {
+  width: 150px;
+  background-color: #3b87f0;
+  height: 350px;
+  margin: auto;
+}
+
+@media (min-width: 550px) {
+  .cuadrado {
+    width: 750px;
+  }
+}
 /*BOOTSTRAP*/
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)

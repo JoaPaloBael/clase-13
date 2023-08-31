@@ -1,0 +1,21 @@
+.card{
+    @extend .estilo-texto;
+    .card-img-top{
+        width: 25%;
+    }
+}
+
+.cuadrado{
+    width: (100px-50px)*3;
+    background-color: #3b87f0;
+    height: 350px;
+    margin: auto;
+    @extend .estilo-texto;
+}
+
+@media (min-width: 550px){
+    .cuadrado{
+        width: 750px;
+        
+    }
+}
